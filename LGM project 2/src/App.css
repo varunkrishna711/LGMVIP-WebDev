@@ -1,0 +1,55 @@
+.App{
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 4px;
+    box-shadow: black;
+    font-size: 24px;
+    background-image: url('https://images.unsplash.com/photo-1565660761890-0ecd9606690f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fG1hZ2VudGF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    
+}
+.App h1{
+    font-family: comic sans ms,cursive;
+    margin-left: 50px;
+}
+.App h1:hover{
+    color:green;
+    cursor: pointer;
+}
+.App button{
+    font-size: 24px;
+    margin-bottom: 70px;
+    background-color: purple;
+    color: whitesmoke;
+    border: 1px solid purple;
+    border-radius: 4px;
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+    left:85%;
+    top:35px;
+}
+.App button:hover{
+    background-color: rgb(173, 27, 173);
+    border: 1px solid rgb(173, 27, 173);
+}
+.people{
+    display: block;
+    background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Purple-Pattern-Simple-Background-Image.jpg');
+}
+.people h2{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:whitesmoke;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:460px){
+    .App{
+        width:45%;
+        display: inline-block;
+    }
+}
+
